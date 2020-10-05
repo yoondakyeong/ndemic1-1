@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>N.Demic102</title>
+<link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!--버튼클릭,오른쪽ㄱㄱ-->
+		<div class="icon-right"></div>
+		<div class="icon-right-full" id="righttwo"></div>
+		<a href="./103.html" id="rightone">
+			<div class="icon-right-bottom" id="rightpage">></div>
+		</a>
+
+		<script type="text/javascript">
+			rightone.onmouseover = function(){
+				 righttwo.style.display="block";
+				 rightpage.style.color='black';
+				 rightpage.style.border='3px solid black';
+			}
+			rightone.onmouseleave = function(){
+				righttwo.style.display="none";
+				rightpage.style.color='red';
+				rightpage.style.border='3px solid red';
+			}
+		</script>
+		
+	<!--아카이브 왼쪽메뉴바ㅡ
+	<div class="archives">
+		<span class="num-arc">Survival stage of</span> 
+		<a href="./100.html">
+			<span class="num num1">1</span>
+		</a>
+		<a href="./200.html">
+			<span class="num">2</span>
+		</a>
+		<a href="./300.html">
+			<span class="num">3</span>
+		</a>
+	</div>-->
+
+	<!--배경,이야기 -->
+		<video oncontextmenu="return false;" div class="full-background" muted loop autoplay>
+  			<source src="./img/mp4s/1project2.mp4" type="video/mp4">
+		</video>
+
+		<div class="bottom-textes">
+			나의 혼란은 인간들에게도 혼란이 된다.<br>
+			인간들은 내가 박쥐, 야생동물, 실험으로부터 태어난 것이라고 말한다.
+		</div>
+
+</body>
+</html>
